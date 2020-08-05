@@ -7,9 +7,33 @@
 }
 
 .background-lb {
-    background-color: #7989d3;
+    background-color: #8b93be;
 }
 .profile-photo{
     border-radius: 50%;
     width: 15rem;
+}
+.jumbotron {
+    background-size: 100% 100%;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(205, 240, 247, 0.8),
+            rgba(58, 67, 140, 0.8)
+        ),
+        url(../img/Nature.jpg);
+    height: 30rem;
+}
+.page-section{
+    padding-top: 3rem;
+}
+.parallax-window {
+    background-image: url(../img/desert.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills-icon{
+    color:white !important;
 }
