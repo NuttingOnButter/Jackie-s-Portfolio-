@@ -19,6 +19,8 @@
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!--JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -67,9 +69,10 @@
         <h1 class="text-center heading-text">About</h1>
       </div>
       <div class="col-12">
-        Hi, I'm Jackie. I am a student at Central High school. My passion is to become a doctor to assist others
-        in their times of need. I really love encouraging and talking to people so I an curently thinking about
-        either a PM&R or any kind of thereapist.
+        Hi, I'm Jackie. I am a student at Central High School in Philadelphia. 
+        My passion is to become a doctor to assist others in their times of need. 
+        I really love encouraging and talking to people so I an curently thinking about
+        either a PM&R or any kind of therapist.
       </div>
     </div>
   </div>
@@ -77,7 +80,7 @@
 
   <!--Education-->
 <section id="education" class="parallax-window">
-<div class="container">
+<div class="container education">
   <div class="row">
     <div class="col-12">
     <h1 class="text-center">Education</h1>
@@ -88,38 +91,69 @@
   </div>
 </div>
 </section>
+
   <!--Skills  -->
   <section id="skills" class="background-lb">
-<div class="container">
+<div class="container skills">
   <div class="row text-center">
     <div class="col-12">
       <h1>Skill Set</h1>
     </div>
       <div class="col-4">
-        <a class="skills-icon">
+        <a class="skills-icon" title="HTML"data-toggle="popover" data-placement="left"
+            data-content="Utilize HTML to build responsive websites." data-trigger="hover">>
         <i class="fab fa-html5 fa-9x"></i>
         </a>
         <br>HTML
       </div>
       <div class="col-4">
-        <a class="skills-icon">
+        <a class="skills-icon" title="CSS" data-toggle="popover" data-placement="left"
+            data-content="Utilize CSS to customize and improve the quality of websites." data-trigger="hover">>
         <i class="fab fa-css3-alt fa-9x"></i>
         </a>
         <br>CSS
       </div>
       <div class="col-4">
-        <a class="skills-icon">
+        <a class="skills-icon" title="Python" data-toggle="popover" data-placement="left"
+            data-content="Utilize Python to write code and to make life easier with programs." data-trigger="hover">>
         <i class="fab fa-python fa-9x"></i>
         </a>
         <br>Python
       </div>
      </div>
   </div>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+      </div>
+      <div class="col-4">
+        <a class="skills-icon" title="Talkative" data-toggle="popover" data-placement="left"
+          data-content="I can easily communicate and make connections with people that I don't know." data-trigger="hover">>
+          <i class="far fa-comments fa-9x"></i>
+        </a>
+        <br>Talkative
+      </div>
+      <div class="col-4">
+        <a class="skills-icon" title="Assisting" data-toggle="popover" data-placement="left"
+          data-content="Go out of my way to help someone whether it be physically or emotionally." data-trigger="hover">>
+          <i class="fas fa-hand-holding-heart fa-9x"></i>
+        </a>
+        <br>Assisting
+      </div>
+      <div class="col-4">
+        <a class="skills-icon" title="Teamwork" data-toggle="popover" data-placement="left"
+          data-content="Pretty flexible and acommadating. Really likely to work with anyone and do my part of the share." data-trigger="hover">>
+          <i class="far fa-handshake fa-9x"></i>
+        </a>
+        <br>Teamwork
+      </div>
+    </div>
+  </div>
 </section>
 
   <!--Experience -->
 <section id="experience" class="background-blue">
-<div class="container">
+<div class="container experience">
   <div class="row">
     <div class="col-12">
       <h1 class="text-center">Experiences</h1>
@@ -138,11 +172,30 @@
 </div>
 </section>
   <!--Projects -->
+  <!-- Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-lg-left">Copyright © Jackie Zhao 2020</div>
+        <div class="col-lg-6">
+          <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/jackie._.moon._/"target="_blank"><i class="fab fa-instagram"></i></a><a
+            class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/hanger300/"target="_blank"><i class="fab fa-facebook-f"></i></a><a
+            class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/jackie-zhao-0977331b3/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!--Popover Script-->
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
 </body>
 
 </html>

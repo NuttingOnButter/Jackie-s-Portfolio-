@@ -24,7 +24,7 @@
     height: 30rem;
 }
 .page-section{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 .parallax-window {
     background-image: url(../img/desert.jpg);
@@ -36,4 +36,27 @@
 }
 .skills-icon{
     color:white !important;
+}
+.bs-popover-right > .arrow::after {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: #a7aeeb;
+}
+.skills-icon:hover {
+    color: #c5b1b1 !important;
+}
+.popover-body {
+    background-color: #a7aeeb;
+}
+footer.footer {
+    padding-top: 1rem;
+}
+.education.education{
+    padding-top: 1rem;
+}
+.skills.skills{
+    padding-bottom: 1rem;
+}
+.experience.experience{
+    padding-bottom: 2rem;
 }
