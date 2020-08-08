@@ -60,3 +60,9 @@ footer.footer {
 .experience.experience{
     padding-bottom: 2rem;
 }
+.background-dt{
+    background-image: url(../img/desert.jpg);
+}
+.text{
+    padding-left: 20px !important;
+}
